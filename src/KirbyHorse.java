@@ -1,14 +1,11 @@
 import processing.core.PApplet;
 import processing.core.PImage;
 
-public class Horse {
-    private float x;
-    private float y;
+public class KirbyHorse {
     private PImage i;
 
     public KirbyHorse(float x, float y, PImage i) {
-        this.x = x;
-        this.y = y;
+        super(x, y);
         i = loadImage("kirby.jpg");
     }
 

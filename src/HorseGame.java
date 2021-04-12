@@ -9,7 +9,7 @@ public class HorseGame extends PApplet {
 
     }
 
-    public void settings(){
+    public void settings() {
         size(888,688);
     }
 
@@ -19,7 +19,7 @@ public class HorseGame extends PApplet {
     }
 
     public void draw() {
-        background(255,255,0);
+        background(255,0,255);
         h.update(this);
         h.draw(this);
     }
